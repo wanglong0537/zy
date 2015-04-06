@@ -21,25 +21,33 @@ public final class R {
         public static final int activity_vertical_margin=0x7f040001;
     }
     public static final class drawable {
-        public static final int contact_list_buddy_item_bg=0x7f020000;
-        public static final int ic_launcher=0x7f020001;
-        public static final int tab_bar_bg_repeat=0x7f020002;
+        public static final int bg_dialog=0x7f020000;
+        public static final int contact_list_buddy_item_bg=0x7f020001;
+        public static final int ic_dropdown=0x7f020002;
+        public static final int ic_launcher=0x7f020003;
+        public static final int ic_liushui_normal=0x7f020004;
+        public static final int tab_bar_bg_repeat=0x7f020005;
     }
     public static final class id {
-        public static final int action_settings=0x7f080007;
-        public static final int num1_tv=0x7f080004;
-        public static final int num2_tv=0x7f080005;
-        public static final int num3_tv=0x7f080006;
-        public static final int result_tv=0x7f080003;
-        public static final int tab_icon=0x7f080001;
-        public static final int tab_text=0x7f080002;
-        public static final int tabsLayout=0x7f080000;
+        public static final int action_settings=0x7f08000a;
+        public static final int dialog_button_cancel=0x7f080000;
+        public static final int dialog_button_ok=0x7f080001;
+        public static final int main_content=0x7f080005;
+        public static final int num1_tv=0x7f080006;
+        public static final int num2_tv=0x7f080007;
+        public static final int num3_tv=0x7f080008;
+        public static final int result_tv=0x7f080009;
+        public static final int tab_icon=0x7f080003;
+        public static final int tab_text=0x7f080004;
+        public static final int tabsLayout=0x7f080002;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int maintabs=0x7f030001;
-        public static final int tab_item=0x7f030002;
-        public static final int test1=0x7f030003;
+        public static final int my_dialog=0x7f030002;
+        public static final int tab_item=0x7f030003;
+        public static final int test1=0x7f030004;
+        public static final int test2=0x7f030005;
     }
     public static final class menu {
         public static final int main=0x7f070000;
@@ -76,5 +84,6 @@ public final class R {
  All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f060001;
+        public static final int myDialog=0x7f060002;
     }
 }

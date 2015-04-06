@@ -6,12 +6,13 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.TextView;
 
-public class Test1Activity extends Activity{
+public class Test1Activity extends Activity {
 
 	TextView num1_tv;
 	TextView num2_tv;
 	TextView num3_tv;
 	TextView result_tv;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -20,29 +21,13 @@ public class Test1Activity extends Activity{
 		num1_tv = (TextView) findViewById(R.id.num1_tv);
 		num2_tv = (TextView) findViewById(R.id.num2_tv);
 		num3_tv = (TextView) findViewById(R.id.num3_tv);
-		num1_tv.setOnClickListener(new OnClickListener() {
-			
-			@Override
-			public void onClick(View arg0) {
-				result_tv.setText("1");
-				
-			}
-		});
-		num2_tv.setOnClickListener(new OnClickListener() {
-			
-			@Override
-			public void onClick(View arg0) {
-				result_tv.setText("2");
-				
-			}
-		});
-		num3_tv.setOnClickListener(new OnClickListener() {
+	}
 	
-		@Override
-		public void onClick(View arg0) {
-			result_tv.setText("3");
-			
-		}
-});
+	public void numClick(View view){
+		result_tv.setText(view.getTag()+"");
+	}
+	
+	public void showDia(View view){
+		new MyDialog(this,R.style.myDialog).show();
 	}
 }

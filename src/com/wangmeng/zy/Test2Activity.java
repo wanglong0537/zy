@@ -9,8 +9,6 @@ public class Test2Activity extends Activity{
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		TextView tv = new TextView(this);
-		tv.setText("test2");
-		setContentView(tv);
+		setContentView(R.layout.test2);
 	}
 }
