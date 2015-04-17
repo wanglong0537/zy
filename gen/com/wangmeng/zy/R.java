@@ -22,16 +22,27 @@ public final class R {
     }
     public static final class drawable {
         public static final int bg_dialog=0x7f020000;
-        public static final int contact_list_buddy_item_bg=0x7f020001;
-        public static final int ic_dropdown=0x7f020002;
-        public static final int ic_launcher=0x7f020003;
-        public static final int ic_liushui_normal=0x7f020004;
-        public static final int tab_bar_bg_repeat=0x7f020005;
+        public static final int bg_feedback_c=0x7f020001;
+        public static final int bg_feedback_us=0x7f020002;
+        public static final int btn_back_normal=0x7f020003;
+        public static final int contact_list_buddy_item_bg=0x7f020004;
+        public static final int ic_arrow_right=0x7f020005;
+        public static final int ic_dropdown=0x7f020006;
+        public static final int ic_launcher=0x7f020007;
+        public static final int ic_liushui_normal=0x7f020008;
+        public static final int ic_relation_nomal=0x7f020009;
+        public static final int tab_bar_bg_repeat=0x7f02000a;
     }
     public static final class id {
-        public static final int action_settings=0x7f08000a;
+        public static final int action_settings=0x7f080010;
         public static final int dialog_button_cancel=0x7f080000;
         public static final int dialog_button_ok=0x7f080001;
+        public static final int item_iv_01=0x7f08000a;
+        public static final int item_iv_02=0x7f08000b;
+        public static final int item_iv_03=0x7f08000c;
+        public static final int item_iv_04=0x7f08000d;
+        public static final int item_iv_05=0x7f08000e;
+        public static final int item_iv_06=0x7f08000f;
         public static final int main_content=0x7f080005;
         public static final int num1_tv=0x7f080006;
         public static final int num2_tv=0x7f080007;
@@ -48,6 +59,11 @@ public final class R {
         public static final int tab_item=0x7f030003;
         public static final int test1=0x7f030004;
         public static final int test2=0x7f030005;
+        public static final int test3=0x7f030006;
+        public static final int test4=0x7f030007;
+        public static final int test5=0x7f030008;
+        public static final int test6=0x7f030009;
+        public static final int test7=0x7f03000a;
     }
     public static final class menu {
         public static final int main=0x7f070000;
